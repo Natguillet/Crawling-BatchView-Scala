@@ -1,0 +1,32 @@
+{
+  "name": "scrap_monster",
+  "version": "1.0.0",
+  "description": "Crawler all the bestiary in pathfinder with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Natguillet/TP2BDR.git"
+  },
+  "keywords": [
+    "Crawler",
+    "Scrap",
+    "Role",
+    "Game",
+    "Database",
+    "BDR"
+  ],
+  "author": "Natacha Guillet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Natguillet/TP2BDR/issues"
+  },
+  "homepage": "https://github.com/Natguillet/TP2BDR#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "co": "^4.6.0",
+    "tinyreq": "^3.3.1"
+  }
+}
