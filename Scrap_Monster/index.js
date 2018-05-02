@@ -127,8 +127,8 @@ function createMonsters(urlMonster) {
 }
 
 function createJsonFile(jsonObject) {
-    let jsonString = JSON.stringify(jsonObject);
-    fs.writeFile("mosnters.json", jsonString, function(err) {
+    let jsonString = JSON.stringify(jsonObject, null, 2);
+    fs.writeFile("monsters.json", jsonString, function(err) {
         if (err) throw err;
         console.log('complete');
         }
